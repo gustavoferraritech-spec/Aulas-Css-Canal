@@ -1,0 +1,224 @@
+
+Fundamentos do Css
+
+-------------------------------------------------------------------------------
+
+
+O que é css?
+
+CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata).
+Ela é uma linguagem de estilo, usada para estilizar o html e definir a aparência.
+
+
+---------------------------------------------------------------------------------
+
+
+Como ele funciona?
+Ele funciona aplicando regras de estilo no html e define como eles devem aparecer.
+O css define a posição dos elementos criados no html.
+
+
+
+---------------------------------------------------------------------------------
+
+
+Css Inline
+
+É quando colocamos o css diretamente em uma tag html, usando o atributo style.
+
+Sintaxe: 
+
+<p style="color: blue;">Olá, mundo!</p>
+
+Não é recomendado usar deste jeito, pois em projetos maiores irá misturar
+css com html.
+
+---------------------------------------------------------------------------------
+
+
+Css Interno 
+
+É quando colocamos o css dentro do arquivo html, ultilizando a tag <style>.
+
+Sintaxe:
+
+<head>
+    <style>
+        h1 {
+            color: blue;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+
+
+-----------------------------------------------------------------------------------
+
+
+Css Externo
+É quando criamos um arquivo separado do html, e importamos ele pelo html.
+Devemos criar o arquivo com .css
+
+Sintaxe:
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+Esse é o jeito mais recomendado, pois não mistura diverentes linguagens.
+Assim deixando o código mais limpo e organizado.
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+Sintaxe Css
+
+
+É a forma como nós vamos escrever o código css.
+
+Estrutura básica: 
+
+seletor {
+    propriedade: valor;
+}
+
+Seletor = Selecionamos qual elemento vamos modificar.
+
+Bloco de declaração {} = Dentro dos {} iremos definir oq será declarado.
+
+Propriedade = Define o que será alterado.
+
+Valor = Indica o valor que estamo mudando da propriedade.
+
+(;) = Usado para separa uma declaração da outra.
+
+
+
+Obs: (;) são obrigatórios, se não colocarmos poderá causar erros indesejáveis.
+
+
+
+ +
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+Comentários Css
+
+São usados para comentar, mostrar o que determinada função faz.
+Códigos comentados são melhores de modificar.
+
+Sintaxe:
+
+h1 {                /*Selecionamos todas as tags h1 do html*/
+    color: black;   /*Modificamos a cor para preto*/
+    font-size: 20px;   /*Alteramos o tamanho da fonte para 20px*/
+}
+ 
+Cómentar seus códigos é uma boa prática de programação.
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+
+
+Propriedade
+
+As propriedades são usadas para modificar os elementos.
+
+p {
+    font-size: 20px;
+}
+
+Aqui estamos modificando a propriedade font-size.
+
+Sempre depois da propriedade deve ter (:).
+
+
+-------------------------------------------------------------------------------------
+
+
+
+Valor 
+
+É a parte que define como a propriedade será alterada.
+
+p {
+    color: red;
+}
+
+Estamos definindo que o valor da propriedade color será vermelha.
+
+
+
+------------------------------------------------------------------------------------
+
+
+Declaração
+
+É quando juntamos a propriedade + valor.
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+Isto é uma declaração.
+
+
+
+------------------------------------------------------------------------------------------
+
+Regra Css
+
+Regra Css é tudo o que acabamos de aprender juntos acima.
+
+É uma instrução completa que dizemos ao navegador, pegue este elemento e aplique esses estilos.
+
+
+
+----------------------------------------------------------------------------------------
+
+# @charset
+
+O @charset informa ao navegador qual codificação de caracteres o arquivo CSS está utilizando.
+
+Normalmente utilizamos o UTF-8, que permite representar diversos tipos de caracteres, incluindo letras com acentos, como `á`, `ã`, `é` e `ç`, além de vários outros símbolos.
+
+Em projetos atuais, o @charset nem sempre é necessário, pois o arquivo geralmente já é interpretado como UTF-8. Porém, é importante conhecer essa regra e saber como utilizá-la.
+
+Sintaxe:
+
+@charset "UTF-8";
+
+Obs: o `@charset` deve estar na primeira linha do arquivo CSS, antes de qualquer outro código.
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+
+Muito obrigado por ter me acompanhado até aqui.
+Que Jesus abençoe a sua vida, e até a próxima.
+
+
+
+=========================================
+
+DESENVOLVIDO POR: Gustavo Ferrari
+LINKEDIN: www.linkedin.com/in/gustavo-ferrari-260792428
+GITHUB: https://github.com/gustavoferraritech-spec
+
+========================================= 

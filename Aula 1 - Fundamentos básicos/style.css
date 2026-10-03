@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+
+h1 {
+    color: green;   /*Mudei a cor de todos os h1 do meu site*/
+    text-align: center; /*Deixei o texto centralizado*/
+}
