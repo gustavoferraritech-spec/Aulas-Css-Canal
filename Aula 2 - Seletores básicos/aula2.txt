@@ -1,0 +1,147 @@
+
+
+Seletores básicos
+
+Para que servem?
+
+Servem para escolher qual elemento html vamos modificar.
+
+Estrutura:
+
+seletor  {
+    propriedade: valor;
+}
+
+
+--------------------------------------------------------------------------------
+
+
+Seletor Universal (*)
+
+Quando usamos o seletor universal estamos selecionando tudo que está na página html.
+
+
+
+--------------------------------------------------------------------------------
+
+
+Seletor de Elemento 
+
+Seleciona todos os elementos de determinado tipo.
+
+p {
+    color: blue;
+}
+
+Selecionou todos os "p" da página html.
+
+
+
+-----------------------------------------------------------------------------------
+
+
+Seletores de Classe
+
+Seleciona determinado elemento que possui uma classe.
+
+.nome_da_classe {
+
+}
+
+OBS: O ponto significa que estamos procurando um classe.
+
+
+
+----------------------------------------------------------------------------------
+
+
+Seletores de ID
+
+Seleciona determinado elemento que possui um id.
+
+#id {
+
+}
+
+OBS: # Significa que estamos procurando um id.
+
+
+
+-------------------------------------------------------------------------------------
+
+
+PARA LEMBRAR
+
+Usamos . para procurar uma classe
+Usamos # para procurar uma div
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+Seletores de atributo []
+
+Seleciona qualquer elemento que possui o atributo procurado.
+
+[type] {
+    color: green;
+}
+
+Todo lugar que na página html tiver o type, irá ficar verde.
+
+-------------------------------------------------------------------------------
+
+EXPLICAÇÃO: 
+O que seria um atributo?
+
+Atibuto já diz no seu nome, atribuir algo.
+
+Um atributo é quando atribuimos algo a mais dentro de uma tag html.
+
+
+Exemplo:
+<input type="text" placeholder="Digite seu nome?">
+
+O atributo é uma atribuição a mais, ao elemento.
+
+
+
+
+
+------------------------------------------------------------------------------------
+
+
+Seletor de agrupamento , 
+
+Usamos para agrupar elementos e deixar eles com o mesmo estilo.
+
+h1, h2 {
+    font-size: 20px;
+}
+
+Atribuimos a configuração para h1 e h2.
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+Muito obrigado por ter me acompanhado até aqui.
+Que Jesus abençoe a sua vida, e até a próxima.
+
+
+
+=========================================
+
+DESENVOLVIDO POR: Gustavo Ferrari
+LINKEDIN: www.linkedin.com/in/gustavo-ferrari-260792428
+GITHUB: https://github.com/gustavoferraritech-spec
+
+========================================= 

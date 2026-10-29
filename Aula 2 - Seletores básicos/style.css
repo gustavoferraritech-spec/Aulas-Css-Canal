@@ -1,0 +1,21 @@
+
+.teste_class {
+    font-size: 100px;
+}
+
+#teste {
+    font-size: 200px;
+}
+
+
+
+[type] {
+    padding: 10px;
+    color: blue;
+}
+
+
+h1, h2 {
+    color: green;
+    font-size: 150px;
+}
